@@ -1,5 +1,5 @@
 import Main from '../../img/main.svg'
-import styles from './Inn.module.scss'
+import styles from './Inn.module.css'
 export default function Inn(){
   return(
     <div className={styles.inn}>

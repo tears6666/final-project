@@ -1,0 +1,10 @@
+.traffic{
+  margin-top: 10rem;
+  padding: 0 4rem 0 4rem;
+  margin-bottom: 100px;
+}
+.traffic__subtitle{
+  font-size: 45px;
+  text-transform: uppercase;
+}
+

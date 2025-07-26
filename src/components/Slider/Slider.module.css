@@ -1,0 +1,21 @@
+.slider{
+  padding-top: 20rem;
+  padding: 0 6rem 0 6rem;
+  margin-top: 20rem;
+}
+.content__item{
+  font-family: Inter, sans-serif;
+  flex-basis: 33%;
+  justify-content: center;
+  margin: 10px;
+  align-items: center;
+  padding: 2rem;
+  width: 400px;
+  box-shadow: -3px 6px 53px -18px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  font-size: 18px;
+}
+.slider__after_img{
+  margin-top: 15rem;
+  margin-left: 20rem;
+}

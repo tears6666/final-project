@@ -1,0 +1,43 @@
+.beginner{
+  width: 400px;
+  background-color: #FFB64F;
+  border-radius: 10px;
+}
+.beginner__aside{
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content__subtitle{
+  font-size: 30px;
+}
+.content__text{
+  font-size: 14px;
+}
+.beginner__under{
+  padding: 2rem;
+  background-color: #FFF;
+  border: 2px solid #FFB64F;
+  border-radius: 0 0 10px 10px;
+}
+.under__cost{
+  display: flex;
+  flex-direction: column;
+}
+.cost__text{
+  font-size: 17px;
+}
+.cost__top{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.top__text{
+ font-size: 30px;
+}
+.top__text_line{
+  text-decoration: line-through;
+  font-size: 25px;
+  opacity: .5;
+}
