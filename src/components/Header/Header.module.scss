@@ -1,0 +1,46 @@
+@mixin flesMixin(){
+  display: flex;
+  align-items: center;
+}
+
+.header{
+  font-family: Inter, sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 0 4rem 0 4rem;
+  justify-content: space-between;
+  @include flesMixin();
+  .header__nav{
+    .nav__list{
+      @include flesMixin();
+      gap: 40px;
+      .list__item{
+        cursor: pointer;
+        font-size: 14px;
+      }
+    }
+  }
+  .header__reg{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    .reg__text{
+      font-size: 14px;
+      opacity: .4;
+      cursor: pointer;
+    }
+    .reg__stick{
+      height: 20px;
+      width: 2px;
+      background-color: #029491;
+    }
+    .reg__btn{
+      font-size: 14px;
+      padding: 5px 10px 5px 10px;
+      background-color: #7CE3E1;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+  }
+}
